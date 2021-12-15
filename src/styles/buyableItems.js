@@ -48,3 +48,19 @@ export const AddButton = styled.button`
     background: #a50d41;
   }
 `;
+
+export const RemoveButton = styled.button`
+  border: 0;
+  padding: 8px;
+  background: #f6f6f6;
+  color: black;
+  border-radius: 6px;
+  width: 200px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 200ms;
+
+  :hover {
+    background: #666;
+  }
+`;
